@@ -1,0 +1,68 @@
+*{
+    margin: 4px;
+    border: 10px;
+    background-color: aquamarine;
+}
+.heading{
+    background-color: rgba(39, 214, 48, 0.651);
+    font-weight: bold;
+    border: 3px solid gray;
+}
+.home{
+     
+    border: 3px solid rgb(200, 180, 180);
+    align-items: right;
+}
+header img{
+    size: 100%;
+    border: 3px solid gray;
+}
+.header{
+    background-color: aquamarine;
+}
+.header a{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.header a:hover{
+    color: rgb(182, 62, 29);
+}
+em{
+    font-size: 20px;
+}
+.footer{
+    background-color: #fff;
+    font-size: small;
+    font-family: Roboto,Arial, Helvetica, sans-serif;
+    position: relative;
+    -webkit-font-smoothing:auto;
+    text-size-adjust: 100%;
+    margin: auto;
+    border: 4px;
+    padding: 2px;
+}
+.scanner p{
+    align-items: center;
+}
+ 
+.scanner{
+    margin-top: 5px;
+    border-top: 5px;
+    padding: 5px;
+}
+input{
+     
+    padding: 3px;
+}
+#correct{
+    background-color: rgb(213, 223, 213);
+}
+#incorrect{
+    background-color: rgb(213, 223, 213);
+}
+#correct:hover{
+    background-color: green;
+}
+#incorrect:hover{
+    background-color:red;
+}
+ 

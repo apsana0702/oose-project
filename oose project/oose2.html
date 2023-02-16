@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Page Title</title>
+  
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+  
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+/* Style the body */
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+}
+body div{
+    background-repeat: no-repeat;
+      
+}
+
+/* Header/logo Title */
+.header {
+  background-image: url("https://www.pngitem.com/pimgs/m/296-2968059_most-popular-brands-logo-png-images-starbucks-new.png");
+  background-size: contain;
+  padding: 80px;
+  text-align: center;
+  font-size: medium;
+  background-color: darkturquoise;
+  color: rgb(25, 22, 22);
+}
+
+/* Increase the font size of the heading */
+.header h1 {
+  font-size: 40px;
+}
+
+/* Sticky navbar - toggles between relative and fixed, depending on the scroll position. It is positioned relative until a given offset position is met in the viewport - then it "sticks" in place (like position:fixed). The sticky value is not supported in IE or Edge 15 and earlier versions. However, for these versions the navbar will inherit default position */
+.navbar {
+  overflow: hidden;
+  background-color: #333;
+  position: sticky;
+  position: -webkit-sticky;
+  top: 0;
+}
+
+/* Style the navigation bar links */
+.navbar a {
+  float: left;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 20px;
+  text-decoration: none;
+}
+
+
+/* Right-aligned link */
+.navbar a.right {
+  float: right;
+}
+
+/* Change color on hover */
+.navbar a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Active/current link */
+.navbar a.active {
+  background-color: #666;
+  color: white;
+}
+
+/* Column container */
+.row {  
+  display: -ms-flexbox; /* IE10 */
+  display: flex;
+  -ms-flex-wrap: wrap; /* IE10 */
+  flex-wrap: wrap;
+}
+
+/* Create two unequal columns that sits next to each other */
+/* Sidebar/left column */
+.side {
+  -ms-flex: 30%; /* IE10 */
+  flex: 30%;
+  background-color: #f1f1f1;
+  padding: 20px;
+}
+
+/* Main column */
+.main {   
+  -ms-flex: 70%; /* IE10 */
+  flex: 70%;
+  background-color: white;
+  padding: 20px;
+}
+
+/* Fake image, just for this example */
+.fakeimg {
+  background-color: #aaa;
+  width: 100%;
+  padding: 20px;
+}
+
+/* Footer */
+.footer {
+  padding: 20px;
+  text-align: center;
+  background: #ddd;
+}
+
+/* Responsive layout - when the screen is less than 700px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 700px) {
+  .row {   
+    flex-direction: column;
+  }
+}
+
+/* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
+@media screen and (max-width: 400px) {
+  .navbar a {
+    float: none;
+    width: 100%;
+  }
+}
+.content{
+  margin-left: 20px;
+  margin-top:0px;
+  float: left;
+  font-size: large;
+  font-weight: 800;
+  line-height: 30px;
+}
+.classes{
+  display: flex;
+  flex-direction: row;
+  
+}
+</style>
+</head>
+<body>
+     
+
+<div class="header">
+  <h1><span>Logo Detection</span></h1>
+  <p> <b>Our Website</b><br> <em> Trust and Quality matters</em></p>
+</div>
+
+<div class="navbar">
+  <a href="#" class="active">Home</a>
+  <a href="Scanner.html">Scanner</a>
+  <a href="about.html">About us</a>
+  <a href="logos.html" class="right">logos</a>
+</div>
+
+<div class="row">
+  <div class="side">
+    <h2>Brands</h2>
+    <h5>To be Detected brand:</h5>
+   <!-- <div class="fakeimg" style="height:200px;">Image</div>-->
+    
+ <div class="classes"> 
+  <div class="img"> <img src="https://www.thesun.co.uk/wp-content/uploads/2017/08/tp-composite-logos.jpg?strip=all&quality=100&w=750&h=500&crop=1"  width="460" height="345"></div>
+  <div class="content">
+<p>  Every year, brands lose a significant portion of their sales to unauthorized knock off brands and counterfeits. Moreover, since such counterfeit products are usually of an inferior quality, they also end up damaging the credibility of the brand. <br>
+Many a times consumers also get cheated out of their hard-earned money as they end up shelling out an exorbitant amount of money for a mere counterfeit. <br>
+This website aims to help consumers distinguish forgeries from the original product. Using this system, a consumer can verify whether a product is in fact an original. This application can also be helpful for brands struggling to fight against forged products. <br>
+This Logo Detection project aims to help users identify forgeries by analysing the logo on the product. Along with helping users identify the logo, this app also helps brands combat logo piracy.
+</p>
+</div>
+</div>
+ 
+
+    
+    <!-- 
+    <h3>About brands</h3>
+    <p>Lorem ips.</p>
+    <div class="fakeimg" style="height:60px;">Image</div><br>
+    <div class="fakeimg" style="height:60px;">Image</div><br>
+    <div class="fakeimg" style="height:60px;">Image</div>-->
+  </div>
+  <!--<div class="main">
+    <h2>TITLE HEADING</h2>
+    <h5>Title description, Dec 7, 2017</h5>
+    <div class="fakeimg" style="height:200px;">Image</div>
+    <p>Some text..</p>
+    <p></p>
+    <br>
+    <h2>TITLE HEADING</h2>
+    <h5>Title description, Sep 2, 2017</h5>
+    <div class="fakeimg" style="height:200px;">Image</div>
+    <p>Some text..</p>
+    
+  </div>-->
+</div>
+ 
+
+<div class="footer">
+  <h2><b>  Contact for more details</b></h2>
+</div>
+    
+    <footer>
+    <div class="footer">
+      <p><b>To contact us</b></p>
+        <ul class="socials">
+            <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+            <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+            <li><a href="#"><i class="fa fa-github"></i></a></li>
+            <li><a href="#"><i class="fa fa-linkedin-square"></i></a></li>
+            <li><a href="#"><i class="fa fa-instagram"></i></a></li>
+        </ul>
+        <div class="footer-copyright">
+            <p>copyright &copy;2022 </p>
+        </div>
+    </div>
+</footer>
+
+
+
+</body>
+</html>
